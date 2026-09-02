@@ -158,7 +158,7 @@
                             "communication_error": "Error de comunicación",
                             "drain_blocked": "Desagüe bloqueado",
                             "evaporation_tray_low_temperature": "Temperatura baja de la bandeja de evaporación",
-                            "evaporation_tray_overheat": "Sobrecalentamiento de la bandeja de evaporación",
+                            "evaporation_tray_overheat": "Sobreescalfament de la safata d'evaporació",
                             "fire": "Incendio",
                             "firewall_sensor_fault": "Falla del sensor de cortafuegos",
                             "gas_leak": "Fuga de gas",
@@ -167,14 +167,14 @@
                             "ok": "Sin problemas",
                             "overflow": "Desbordamiento",
                             "receive_error": "Error de recepción",
-                            "sensor_open_circuit": "Sensor de circuito abierto",
-                            "sensor_short_circuit": "Sensor de cortocircuito",
-                            "sensor_fault": "Falla del sensor",
-                            "transmit_error": "Error de transmisión",
-                            "valve_fault": "Falla de la válvula",
-                            "variable_frequency_fault": "Falla de frecuencia variable",
-                            "washing_motor_fault": "Falla del motor de lavado",
-                            "water_removed_or_empty": "Agua retirada o vacía"
+                            "sensor_open_circuit": "Sensor de circuit obert",
+                            "sensor_short_circuit": "Sensor de curtcircuit",
+                            "sensor_fault": "Error del sensor",
+                            "transmit_error": "Error de transmissió",
+                            "valve_fault": "Error de la vàlvula",
+                            "variable_frequency_fault": "Error de freqüència variable",
+                            "washing_motor_fault": "Error del motor de rentat",
+                            "water_removed_or_empty": "Aigua eliminada o buida"
                         }
                     }
                 }
