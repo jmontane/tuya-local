@@ -113,15 +113,15 @@
             "fields": {
                 "emitter_entity_id": {
                     "name": "Emissor",
-                    "description": "La entidad del transmisor IR que se utilizará para enviar el comando."
+                    "description": "L'ID de l'entitat de l'entitat infraroja a la qual enviar l'ordre."
                 },
                 "command": {
-                    "name": "Comando",
+                    "name": "Ordre",
                     "description": "El comando IR a enviar. Este debe ser el mismo comando que fue aprendido por el dispositivo."
                 },
                 "device": {
-                    "name": "Dispositivo",
-                    "description": "El dispositivo IR al que enviar el comando. Esto es opcional y solo se necesita si el comando se guardó con un dispositivo."
+                    "name": "Dispositiu",
+                    "description": "El dispositiu IR al qual enviar l'ordre. Això és opcional i només és necessari si l'ordre s'ha desat amb un dispositiu."
                 }
             }
         }
@@ -136,7 +136,7 @@
                 }
             },
             "defrost": {
-                "name": "Descongelar",
+                "name": "Descongelació",
                 "state": {
                     "on": "Descongelació",
                     "off": "Normal"
@@ -156,28 +156,28 @@
                             "chamber_low_temperature": "Temperatura baja de la cámara",
                             "chamber_overheat": "Sobrecalentamiento de la cámara",
                             "communication_error": "Error de comunicación",
-                            "door_open": "Puerta abierta",
+                            "door_open": "Porta oberta",
                             "drain_blocked": "Desagüe bloqueado",
                             "evaporation_tray_low_temperature": "Temperatura baja de la bandeja de evaporación",
-                            "evaporation_tray_overheat": "Sobrecalentamiento de la bandeja de evaporación",
-                            "fire": "Incendio",
-                            "firewall_sensor_fault": "Falla del sensor de cortafuegos",
-                            "gas_leak": "Fuga de gas",
-                            "heating_fault": "Falla de calefacción",
+                            "evaporation_tray_overheat": "S'ha sobreescalfat la safata d'evaporació",
+                            "fire": "Foc",
+                            "firewall_sensor_fault": "Error del sensor del tallafoc",
+                            "gas_leak": "Fuita de gas",
+                            "heating_fault": "Error d'escalfament",
                             "high_temperature": "Temperatura alta",
-                            "low_temperature": "Temperatura baja",
-                            "no_water": "Sin agua",
-                            "ok": "Sin problemas",
-                            "overflow": "Desbordamiento",
-                            "receive_error": "Error de recepción",
-                            "sensor_open_circuit": "Sensor de circuito abierto",
+                            "low_temperature": "Temperatura baixa",
+                            "no_water": "Sense aigua",
+                            "ok": "D'acord",
+                            "overflow": "Desbordament",
+                            "receive_error": "Error de recepció",
+                            "sensor_open_circuit": "Circuit obert del sensor",
                             "sensor_short_circuit": "Sensor de cortocircuito",
                             "sensor_fault": "Falla del sensor",
-                            "transmit_error": "Error de transmisión",
-                            "valve_fault": "Falla de la válvula",
-                            "variable_frequency_fault": "Falla de frecuencia variable",
-                            "washing_motor_fault": "Falla del motor de lavado",
-                            "water_removed_or_empty": "Agua retirada o vacía"
+                            "transmit_error": "Error de transmissió",
+                            "valve_fault": "Falla de la vàlvula",
+                            "variable_frequency_fault": "Error de freqüència variable",
+                            "washing_motor_fault": "Error del motor de rentat",
+                            "water_removed_or_empty": "Aigua eliminada o buida"
                         }
                     }
                 }
@@ -207,14 +207,14 @@
                 "name": "Abrillantador",
                 "state": {
                     "off": "D'acord",
-                    "on": "Bajo"
+                    "on": "Baix"
                 }
             },
             "salt": {
                 "name": "Sal",
                 "state": {
                     "off": "D'acord",
-                    "on": "Bajo"
+                    "on": "Baix"
                 }
             },
             "water_flow": {
@@ -413,8 +413,8 @@
                             "medium_steaming": "Vapor mitjà",
                             "high_steaming": "Vapor alt",
                             "steaming": "Vapor",
-                            "hot_air_baking": "Horneado con aire caliente",
-                            "disinfect": "Desinfección"
+                            "hot_air_baking": "Forneig per aire calent",
+                            "disinfect": "Desinfecció"
                         }
                     }
                 }
@@ -485,12 +485,12 @@
                 "state_attributes": {
                     "preset_mode": {
                         "state": {
-                            "auto": "Automático",
+                            "auto": "Automàtic",
                             "manual": "Manual",
                             "sleep": "Dormir",
-                            "low": "Bajo",
-                            "medium": "Medio",
-                            "high": "Alto",
+                            "low": "Baix",
+                            "medium": "Mitjà",
+                            "high": "Alt",
                             "strong": "Fuerte",
                             "displayoff": "Pantalla apagada"
                         }
@@ -528,7 +528,7 @@
                 "state_attributes": {
                     "preset_mode": {
                         "state": {
-                            "baby": "Bebé",
+                            "baby": "Bebè",
                             "fresh": "Fresc",
                             "nature": "Natural",
                             "normal": "Normal",
@@ -683,37 +683,37 @@
             "language": {
                 "name": "Llengua",
                 "state": {
-                    "bulgarian": "Български",
-                    "chinese": "中文",
-                    "chinese_traditional": "中文(繁體)",
-                    "czech": "Čeština",
-                    "danish": "Dansk",
-                    "dutch": "Nederlands",
-                    "english": "English",
-                    "english_child": "English (Child)",
-                    "french": "Français",
-                    "german": "Deutsch",
-                    "hungarian": "Magyar",
-                    "italian": "Italiano",
-                    "japanese": "日本語",
-                    "korean": "한국어",
-                    "latin": "Español latinoamericano",
-                    "polish": "Polski",
-                    "portuguese": "Português",
-                    "romanian": "Română",
-                    "russian": "Русский",
-                    "slovak": "Slovenčina",
-                    "spanish": "Español",
-                    "thai": "ไทย",
-                    "turkish": "Türkçe",
-                    "vietnamese": "Tiếng Việt",
-                    "english_au": "English (Australia)",
-                    "english_ca": "English (Canada)",
-                    "english_in": "English (India)",
-                    "english_us": "English (United States)",
-                    "french_ca": "Français (Canada)",
-                    "hindi": "हिंदी",
-                    "spanish_us": "Español (Estados Unidos)",
+                    "bulgarian": "búlgar",
+                    "chinese": "xinès",
+                    "chinese_traditional": "xinès (tradicional)",
+                    "czech": "txec",
+                    "danish": "danès",
+                    "dutch": "neerlandès",
+                    "english": "anglès",
+                    "english_child": "anglès (infantil)",
+                    "french": "francès",
+                    "german": "alemany",
+                    "hungarian": "hongarès",
+                    "italian": "italià",
+                    "japanese": "japonès",
+                    "korean": "coreà",
+                    "latin": "espanyol llatinoamericà",
+                    "polish": "polonès",
+                    "portuguese": "portuguès",
+                    "romanian": "romanès",
+                    "russian": "rus",
+                    "slovak": "eslovac",
+                    "spanish": "español",
+                    "thai": "tailandès",
+                    "turkish": "turc",
+                    "vietnamese": "vietnamita",
+                    "english_au": "anglès (Austràlia)",
+                    "english_ca": "anglès (Canadà)",
+                    "english_in": "anglès (Índia)",
+                    "english_us": "anglès (EUA)",
+                    "french_ca": "francès (Canadà)",
+                    "hindi": "hindi",
+                    "spanish_us": "espanyol (EUA)",
                     "off": "Desactivat"
                 }
             },
@@ -764,9 +764,9 @@
             "night_vision": {
                 "name": "Visión nocturna",
                 "state": {
-                    "off": "Desactivado",
-                    "on": "Activado",
-                    "auto": "Automático"
+                    "off": "Desactivat",
+                    "on": "Activat",
+                    "auto": "Auto"
                 }
             },
             "recipe": {
@@ -798,10 +798,10 @@
                 }
             },
             "recording_mode": {
-                "name": "Mode de grabación",
+                "name": "Mode d'enregistrament",
                 "state": {
                     "event": "Evento",
-                    "continuous": "Continuo"
+                    "continuous": "Continu"
                 }
             },
             "scene": {
@@ -1020,25 +1020,25 @@
                     "hygiene": "Higiene",
                     "party": "Festa",
                     "baby_care": "Cura del nadó",
-                    "hour_wash": "Lavado de una hora",
-                    "dry": "Seco",
-                    "storage": "Almacenamiento",
-                    "light": "Ligero",
+                    "hour_wash": "Rentat d'una hora",
+                    "dry": "Sec",
+                    "storage": "Emmagatzematge",
+                    "light": "Lleuger",
                     "pots": "Pots i cassoles"
                 }
             },
             "water_hardness": {
-                "name": "Dureza del agua"
+                "name": "Duresa de l'aigua"
             },
             "rinse_aid_level": {
-                "name": "Nivel de abrillantador"
+                "name": "Nivell d'ajuda d'esbandida"
             },
             "rack": {
-                "name": "Estante",
+                "name": "Prestatge",
                 "state": {
                     "lower": "Inferior",
                     "upper": "Superior",
-                    "both": "Ambos"
+                    "both": "Ambdós"
                 }
             },
             "rangehood_mode": {
@@ -1046,33 +1046,33 @@
                 "state": {
                     "steaming": "Vapor",
                     "regular": "Regular",
-                    "strong": "Fuerte"
+                    "strong": "Fort"
                 }
             },
             "rangehood_fan_speed": {
-                "name": "Velocidad del ventilador de la campana extractora",
+                "name": "Velocitat del ventilador de la campana extractora",
                 "state": {
-                    "off": "Apagado",
-                    "low": "Bajo",
-                    "medium": "Medio",
-                    "high": "Alto",
-                    "quickfry": "Freír rápido"
+                    "off": "Apagat",
+                    "low": "Baixa",
+                    "medium": "Mitjà",
+                    "high": "Alt",
+                    "quickfry": "Fregit ràpid"
                 }
             },
             "rangehood_delayed_shutdown": {
-                "name": "Apagado retrasado de la campana extractora",
+                "name": "Aturada retardada",
                 "state": {
-                    "disabled": "Desactivado",
-                    "1m": "1 minuto",
-                    "2m": "2 minutos",
-                    "3m": "3 minutos",
-                    "4m": "4 minutos",
-                    "5m": "5 minutos",
-                    "6m": "6 minutos",
-                    "7m": "7 minutos",
-                    "8m": "8 minutos",
-                    "9m": "9 minutos",
-                    "10m": "10 minutos"
+                    "disabled": "inhabilitat",
+                    "1m": "1 minut",
+                    "2m": "2 minuts",
+                    "3m": "3 minuts",
+                    "4m": "4 minuts",
+                    "5m": "5 minuts",
+                    "6m": "6 minuts",
+                    "7m": "7 minuts",
+                    "8m": "8 minuts",
+                    "9m": "9 minuts",
+                    "10m": "10 minuts"
                 }
             },
             "menu": {
@@ -1198,7 +1198,7 @@
         },
         "sensor": {
             "ambient_temperature": {
-                "name": "Temperatura ambiente"
+                "name": "Temperatura ambient"
             },
             "inlet_temperature": {
                 "name": "Temperatura d'entrada"
@@ -1364,7 +1364,7 @@
                     "drain_normal_water": "Desguàs d'aigua normal",
                     "high_temperature_emptying": "Buidatge a alta temperatura",
                     "high_temperature_emptied": "Buidatge a alta temperatura completat",
-                    "storage": "Almacenamiento"
+                    "storage": "Emmagatzematge"
                 }
             },
             "time_remaining": {
@@ -1386,7 +1386,7 @@
                 "name": "Vida útil del filtre"
             },
             "days_stored": {
-                "name": "Días almacenados"
+                "name": "Dies emmagatzemats"
             },
             "leakage_current": {
                 "name": "Corrent de fuita"
@@ -1461,7 +1461,7 @@
                 "name": "Dorm"
             },
             "sound": {
-                "name": "Sonido"
+                "name": "So"
             },
             "switch_x": {
                 "name": "Interruptor {x}"
@@ -1473,13 +1473,13 @@
                 "name": "Esterilització electrolítica"
             },
             "auto_storage": {
-                "name": "Almacenamiento automático"
+                "name": "Emmagatzematge automàtic"
             },
             "auto_dry": {
-                "name": "Secado automático"
+                "name": "Assecat automàtic"
             },
             "oven": {
-                "name": "Horno"
+                "name": "Forn"
             },
             "rangehood": {
                 "name": "Campana extractora"
@@ -1530,12 +1530,12 @@
                 "name": "Detecció de moviment"
             },
             "watermark": {
-                "name": "Marca de agua"
+                "name": "Marca d'aigua"
             }
         },
         "text": {
             "meal_plan": {
-                "name": "Plan de comidas"
+                "name": "Pla d'àpats"
             },
             "scene": {
                 "name": "Escena"
